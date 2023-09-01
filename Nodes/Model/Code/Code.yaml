@@ -1,0 +1,14 @@
+Name: Code
+Id: g=cdb07b920c71918375fce9082b57ac33
+Type: FolderType
+Children:
+- Name: QRCode
+  Id: g=327b867d3149091e4154e56bc15b8c6d
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Barcode39
+  Id: g=77d7ee2c8a7b7653c6f70b24041a983a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
