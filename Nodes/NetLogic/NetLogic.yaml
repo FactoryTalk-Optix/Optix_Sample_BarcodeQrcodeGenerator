@@ -1,0 +1,25 @@
+Name: NetLogic
+Id: g=e531991d88ea64d44ee3a212592da101
+Type: FolderType
+Children:
+- Name: QrBarCodeLogic
+  Id: g=c9b39bec15f9c53054b0d215aa06aecd
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: CodeGenerator
+    Id: g=e5e0ebf76f9355b5d0e80f33412bac43
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=65826ca37bad332efc13b4508f8d4935
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"value","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"type","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: FilePath
+    Id: g=6be8812c25f2f7a2eb6f32d43bb475ae
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=14;%PROJECTDIR%/Code.jpg"
