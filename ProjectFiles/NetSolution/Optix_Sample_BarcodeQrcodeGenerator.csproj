@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
@@ -19,5 +19,5 @@
     <PackageReference Include="Barcoder" Version="1.0.0.86"/>
     <PackageReference Include="Barcoder.Renderer.Image" Version="1.0.0.86"/>
   </ItemGroup>
-  <Import Project="BarQRcode.references"/>
+  <Import Project="Optix_Sample_BarcodeQrcodeGenerator.references"/>
 </Project>

@@ -1,6 +1,6 @@
 Name: NetLogic
 Id: g=e531991d88ea64d44ee3a212592da101
-Type: FolderType
+Type: NetLogicCategoryFolder
 Children:
 - Name: QrBarCodeLogic
   Id: g=c9b39bec15f9c53054b0d215aa06aecd
@@ -22,4 +22,4 @@ Children:
     Id: g=6be8812c25f2f7a2eb6f32d43bb475ae
     Type: BaseDataVariableType
     DataType: ResourceUri
-    Value: "ns=14;%PROJECTDIR%/Code.jpg"
+    Value: "ns=0;%PROJECTDIR%/Code.jpg"

@@ -1,0 +1,70 @@
+Name: Optix_Sample_BarcodeQrcodeGenerator
+Id: g=b408bb9c7600d3e75762bbb0532b37b7
+Type: ProjectFolder
+Children:
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Users/Users.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- Name: PasswordPolicy
+  Id: g=989418582ed605cb900a8237447158da
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=4ff4afb9aa96fcc38c2be1fed3f736e1
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: EnforcePasswordHistory
+    Id: g=ed634e6c0c6cbd6df40d23df64007d73
+    Type: BaseDataVariableType
+    DataType: Byte
+  - Name: MinimumPasswordAge
+    Id: g=ff813082fbf41e908f6c0061d494dc71
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MinimumPasswordLength
+    Id: g=7ab57faee6eaf881b5ff65b2f16d06c2
+    Type: BaseDataVariableType
+    DataType: Byte
+- Name: Authentication
+  Id: g=2d654c87adc4b005861a97cc688f88ce
+  Type: PropertyGroup
+- Name: AlarmConfiguration
+  Id: g=81def20d78f1d261425e3eb1c935e158
+  Type: PropertyGroup
+  Children:
+  - Name: BranchingEnabled
+    Id: g=032ca0468370d8d922f7a30feaeab8e4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+- Name: Localization
+  Id: g=90a245641534839efad9001afad71a12
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=9696e4472b701f80022985d79184e268
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: LocaleFallbackList
+    Id: g=20a369cf0d297b4db93f0be8582f53da
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]

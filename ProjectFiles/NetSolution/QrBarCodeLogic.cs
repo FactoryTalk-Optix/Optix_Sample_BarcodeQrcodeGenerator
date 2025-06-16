@@ -14,6 +14,7 @@ using Barcoder.Renderer;
 using Barcoder.Renderer.Image;
 using System.IO;
 using FTOptix.Core;
+using FTOptix.WebUI;
 #endregion
 
 public class QrBarCodeLogic : BaseNetLogic
@@ -40,6 +41,7 @@ public class QrBarCodeLogic : BaseNetLogic
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                     renderer.Render(barcode, stream);
+                    Log.Info("CodeGenerator", $"QR Code generated successfully at: {filePath}");
                 }
                 break;
             case "Barcode39":
@@ -47,6 +49,7 @@ public class QrBarCodeLogic : BaseNetLogic
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                     renderer.Render(barcode, stream);
+                    Log.Info("CodeGenerator", $"Barcode39 generated successfully at: {filePath}");
                 }
                 break;
             default:

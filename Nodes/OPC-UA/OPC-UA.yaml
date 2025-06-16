@@ -1,6 +1,6 @@
 Name: 'OPC-UA'
 Id: g=7b4d5c3fed845f3e0766e9cd81fbe497
-Type: FolderType
+Type: OPCUACategoryFolder
 Children:
 - Name: 'OPC-UA Server'
   Id: g=ced7ffe5f590a0973e89e49bad6d2ebb
@@ -18,9 +18,7 @@ Children:
     Id: g=2c2d624b0ed1f97b51d7b6e2b7ef90e2
     Type: PropertyType
     DataType: MessageSecurityModeEnum
-    Value: 0
   - Name: MinimumSecurityPolicy
     Id: g=e5f12e4f2e953f097c49da63ce34f987
     Type: PropertyType
     DataType: SecurityPolicyEnum
-    Value: 0

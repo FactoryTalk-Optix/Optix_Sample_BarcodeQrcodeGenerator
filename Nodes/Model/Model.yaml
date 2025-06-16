@@ -1,5 +1,5 @@
 Name: Model
 Id: g=888819c6fc65e132ca46f7dfbfad6353
-Type: FolderType
+Type: ModelCategoryFolder
 Children:
 - File: Code/Code.yaml
