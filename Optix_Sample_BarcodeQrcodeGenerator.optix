@@ -1,7 +1,7 @@
 Project:
  Name: Optix_Sample_BarcodeQrcodeGenerator
  GUID: 54a5a039c602a9aed265581abdd306ca
- ProjectNamespaceIndex: 0
+ ProjectNamespaceIndex: 14
  Description: ''
  Company: ''
  Copyright: ''
@@ -66,8 +66,8 @@ Project:
    Module: FTOptix.WebUI.Net
    Version: 1.2
  Statistics:
-  TotalNodeCount: 334
-  Objects: 101
+  TotalNodeCount: 333
+  Objects: 100
   ObjectTypes: 4
   Variables: 228
   VariableTypes: 0

@@ -452,7 +452,7 @@ Children:
           Id: g=6b104c72c72a38efb4bf9b35932e70fe
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=0;%PROJECTDIR%/PanelBackground.png"
+          Value: "ns=14;%PROJECTDIR%/PanelBackground.png"
         - Name: Width
           Id: g=47fbfc4a346f9b9d5b205b56624c8ca1
           Type: BaseVariableType
@@ -501,7 +501,7 @@ Children:
             Id: g=d2110c9605e33885fc49d83c69758a7b
             Type: BaseDataVariableType
             DataType: ResourceUri
-            Value: "ns=0;%PROJECTDIR%/Logo_AsemRAC_Transparent.png"
+            Value: "ns=14;%PROJECTDIR%/Logo_AsemRAC_Transparent.png"
           - Name: Width
             Id: g=4fefec90d5a77d6172fde3270d835702
             Type: BaseVariableType
@@ -670,7 +670,7 @@ Children:
           Id: g=5f3378407a24f24e0d34028bc8c731fc
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=0;%PROJECTDIR%/PanelBackground.png"
+          Value: "ns=14;%PROJECTDIR%/PanelBackground.png"
         - Name: Width
           Id: g=43881568b034a4dc6bb9e494fc53b024
           Type: BaseVariableType
@@ -719,7 +719,7 @@ Children:
             Id: g=b358b00dd1958d785d0e5c164a6f2ead
             Type: BaseDataVariableType
             DataType: ResourceUri
-            Value: "ns=0;%PROJECTDIR%/LogoFTOptixDarkGrey.svg"
+            Value: "ns=14;%PROJECTDIR%/LogoFTOptixDarkGrey.svg"
           - Name: Width
             Id: g=5853ac0623cb5286375207ed0bab22f4
             Type: BaseVariableType
@@ -1003,7 +1003,7 @@ Children:
       Id: g=a417fc7a540db34e4587a6ad48b0265c
       Type: BaseDataVariableType
       DataType: ResourceUri
-      Value: "ns=0;%PROJECTDIR%/Code.jpg"
+      Value: "ns=14;%PROJECTDIR%/Code.jpg"
     - Name: Width
       Id: g=69964772fe8dd4d322cffb3c128ca6a1
       Type: BaseVariableType
@@ -1177,9 +1177,6 @@ Children:
       Type: BaseDataVariableType
       DataType: BaseDataType
       AccessLevel: Read
-  - Name: Background
-    Id: g=db0e1afbb68112c095039ec9d0273620
-    Type: Rectangle
 - Name: Instructions
   Id: g=dc14fa28036a17e12176f9ff60132f17
   Supertype: Page_Template
